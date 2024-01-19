@@ -7,8 +7,21 @@ void main() {
     const MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.lightBlueAccent,
-        body: GradientContainer(),
+        body: GradientContainer.purple(),
       ),
     ),
   );
 }
+// void main() {
+//   runApp(
+//     const MaterialApp(
+//       home: Scaffold(
+//         backgroundColor: Colors.lightBlueAccent,
+//         body: GradientContainer(
+//           Color.fromRGBO(30, 10, 80, 1),
+//           Color.fromARGB(255, 88, 31, 233),
+//         ),
+//       ),
+//     ),
+//   );
+// }
